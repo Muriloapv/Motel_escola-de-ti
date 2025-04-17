@@ -16,3 +16,9 @@ RA-22014037-2
 Rodrigo Yaedu Pinesso
 RA-22024201-2
 
+cd motel
+npm install
+npx prisma generate
+npx prisma db push
+npx prisma migrate dev
+npm run dev
