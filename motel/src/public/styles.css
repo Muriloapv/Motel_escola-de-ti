@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.relogio {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#horario {
+    font-size: 48px;
+    font-weight: bold;
+    color: #0056b3;
+}
+
+#data {
+    font-size: 18px;
+    color: #666;
+}
+
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: vertical;
+    min-height: 100px;
+}
+
+.botoes {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.btn {
+    padding: 12px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+.btn-entrada {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-entrada:hover {
+    background-color: #218838;
+}
+
+.btn-saida {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-saida:hover {
+    background-color: #c82333;
+}
+
+.registros {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.registros h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.registro-item {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.registro-item:last-child {
+    border-bottom: none;
+}
+
+.tipo-entrada {
+    color: #28a745;
+}
+
+.tipo-saida {
+    color: #dc3545;
+} 

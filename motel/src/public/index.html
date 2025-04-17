@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Ponto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registro de Ponto</h1>
+        
+        <div class="relogio">
+            <div id="horario">00:00:00</div>
+            <div id="data"></div>
+        </div>
+
+        <div class="form-container">
+            <textarea id="observacao" placeholder="Observação (opcional)"></textarea>
+            
+            <div class="botoes">
+                <button id="btnEntrada" class="btn btn-entrada">ENTRADA</button>
+                <button id="btnSaida" class="btn btn-saida">SAÍDA</button>
+            </div>
+        </div>
+
+        <div class="registros">
+            <h2>Últimos Registros</h2>
+            <div id="listaRegistros"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
